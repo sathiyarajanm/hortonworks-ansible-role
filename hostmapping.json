@@ -1,0 +1,14 @@
+{
+  "blueprint" : "single-node-hdp-cluster",
+  "default_password" : "admin",
+  "host_groups" :[
+    {
+      "name" : "host_group_1",
+      "hosts" : [
+        {
+          "fqdn" : "test1"
+        }
+      ]
+    }
+  ]
+}
